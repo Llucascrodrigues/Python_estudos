@@ -1,0 +1,40 @@
+Variáveis podem mudar com o tempo no Python, assim como o nome já diz. Os nomes dessas variáveis são únicas e sussintas.
+Os tipos de dados são:
+	Inteiros (int)
+		10
+		2000
+		
+	Reais (float) a separação entre os números é usado o ponto.
+		3.7
+		6.6
+		
+	Literal (string)
+	
+	Lógico (bool)
+		True or False
+
+Atribuir valor a uma variável usamos o = por exemplo:
+	var="física"
+
+Operadores:
+	Aritmético:
+		Que são os operadores da matemática
+	
+	
+Entrada de dados (input) :
+	variaverl=input("entradad de dado:")
+Esses valores são sempre armazenados como string, então devemos converter caso precise.
+
+Saída de dados:
+	print("imprime na tela string")
+	print(variavel)
+	print("imprime as duas tbm", variavel)
+	
+	formatação de saida:
+		marcadores: %d (int), %s (string), %f (float) 
+		print("%s tem %d anos" % (nome,saldo))
+		para ficar com mais casa decimal %.2f
+	Formatação de saida
+		print("nome tem {} anos" .format(idade))
+		para ficar duas casas decimais no .format usamos {:.2f}
+		
